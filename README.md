@@ -1,16 +1,95 @@
-# React + Vite
+# 🚀 FocusFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered study and productivity web app that helps users track study sessions, generate tests from notes, and improve learning through personalized insights.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🧠 Overview
 
-## React Compiler
+FocusFlow combines study tracking with AI-driven analysis to create an efficient learning workflow. It helps users stay consistent, test their understanding, and identify areas for improvement.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📊 Study Tracker
+
+* Track study sessions (start/end)
+* View total focus time, session count, and average duration
+* Analyze consistency and daily patterns
+
+---
+
+### 🤖 AI Study Insights
+
+* Generates insights from study sessions
+* Identifies patterns in focus and timing
+* Suggests improvements (e.g., better session length, consistency)
+
+---
+
+### 📝 Test Mode
+
+* Input study notes as text
+* AI generates:
+
+  * MCQs
+  * Fill-in-the-blank questions
+* Interactive quiz experience
+
+---
+
+### 📈 Test Feedback
+
+* Instant evaluation of answers
+* Highlights weak and strong areas
+* AI suggestions for improvement
+
+---
+
+### 🗂 Test History
+
+* Stores previous attempts
+* Tracks performance over time
+* Provides overall learning summary
+
+---
+
+### 🔐 Authentication
+
+* Email & Password login
+* Google Sign-In
+* Secure user-specific data
+
+---
+
+### ☁️ Data Storage
+
+* Stores study sessions and test history per user
+* Ensures persistence and data isolation
+
+---
+
+## 🛠 Tech Stack
+
+* ⚛️ React (Vite)
+* 🎨 Tailwind CSS
+* 🔐 Firebase Authentication
+* 🗄 Firebase Firestore
+* 🤖 Google Gemini API
+
+---
+
+## 🧩 Core Flow
+
+```
+Study → Track → Test → Analyze → Improve
+```
+
+---
+
+## 👨‍💻 Author
+
+Vikramaditya Singh
+
+---
